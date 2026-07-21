@@ -1,0 +1,110 @@
+.education{
+    background:#0f172a;
+    padding:100px 0;
+    color:white;
+}
+
+.section-title{
+    color:#38bdf8;
+    margin-bottom:70px;
+    font-size:42px;
+    font-weight:700;
+}
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:auto;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:50%;
+    width:4px;
+    height:100%;
+    background:#38bdf8;
+    transform:translateX(-50%);
+}
+
+.timeline-card{
+    width:45%;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(12px);
+    padding:25px;
+    border-radius:20px;
+    position:relative;
+    margin-bottom:50px;
+    transition:.4s;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.timeline-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 30px rgba(56,189,248,.4);
+}
+
+.left{
+    margin-right:auto;
+}
+
+.right{
+    margin-left:auto;
+}
+
+.icon{
+    width:65px;
+    height:65px;
+    background:#38bdf8;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.year{
+    background:#38bdf8;
+    padding:6px 15px;
+    border-radius:20px;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+.content p{
+    color:#d1d5db;
+    line-height:1.7;
+}
+
+.achievement{
+    margin-top:80px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:linear-gradient(135deg,#1e293b,#334155);
+    padding:30px;
+    border-radius:20px;
+}
+
+.award-icon{
+    font-size:55px;
+    color:gold;
+}
+
+@media(max-width:768px){
+
+.timeline::before{
+    left:20px;
+}
+
+.timeline-card{
+    width:100%;
+    margin-left:40px;
+}
+
+.left,
+.right{
+    margin-left:40px;
+}
+}

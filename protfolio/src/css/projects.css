@@ -1,0 +1,60 @@
+.projects{
+
+background:#111827;
+
+}
+
+.projects h2{
+
+color:#38bdf8;
+
+font-weight:bold;
+
+}
+
+.projectCard{
+
+background:#1e293b;
+
+color:white;
+
+border:none;
+
+overflow:hidden;
+
+border-radius:20px;
+
+transition:.4s;
+
+box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+
+.projectCard img{
+
+height:220px;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.projectCard:hover img{
+
+transform:scale(1.1);
+
+}
+
+.projectCard p{
+
+color:#ddd;
+
+}
+
+.projectCard button{
+
+border-radius:30px;
+
+}
+
