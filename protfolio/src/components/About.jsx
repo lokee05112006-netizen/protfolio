@@ -7,7 +7,7 @@ function About() {
   return (
     <section id="about" className="about py-5">
       <div className="container">
-
+        
         <motion.h2
           className="text-center section-title"
           initial={{ opacity: 0, y: -40 }}
